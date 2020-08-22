@@ -20,7 +20,7 @@ Juwelier::Tasks.new do |gem|
   gem.description = %Q{Not much more than that, really. Intended for my NaNoGenMo project.}
   gem.email = "lloyd@kranzky.com"
   gem.authors = ["Lloyd Kranzky"]
-  gem.required_ruby_version = '>= 2.6'
+  gem.required_ruby_version = '>= 2.5'
 
   # dependencies defined in Gemfile
 end

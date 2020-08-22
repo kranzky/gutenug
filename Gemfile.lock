@@ -86,7 +86,6 @@ DEPENDENCIES
   pragmatic_segmenter (~> 0.3)
   rdoc (~> 6.2)
   rspec (~> 3.9)
-  semver2 (~> 3)
   simplecov
   yard (~> 0.7)
 
