@@ -10,7 +10,6 @@ rescue Bundler::BundlerError => e
   exit e.status_code
 end
 require 'rake'
-
 require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
@@ -21,7 +20,6 @@ Juwelier::Tasks.new do |gem|
   gem.description = %Q{Not much more than that, really. Intended for my NaNoGenMo project.}
   gem.email = "lloyd@kranzky.com"
   gem.authors = ["Lloyd Kranzky"]
-  gem.version = s_version
   gem.required_ruby_version = '>= 2.6'
 
   # dependencies defined in Gemfile
