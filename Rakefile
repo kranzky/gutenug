@@ -11,11 +11,6 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require 'semver'
-
-def s_version
-  SemVer.find.format "%M.%m.%p%s"
-end
 require 'juwelier'
 Juwelier::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options

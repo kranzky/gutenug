@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "semver2", "~> 3"
 gem 'pragmatic_segmenter', '~> 0.3'
 
 group :development do
