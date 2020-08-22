@@ -1,7 +1,4 @@
-require_relative 'paragraph'
-require_relative 'chapter'
-
-module Gutenough
+module Gutenug
   class Book
     def initialize(blob)
       paragraphs = []

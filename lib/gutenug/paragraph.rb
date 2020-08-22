@@ -1,6 +1,4 @@
-require 'pragmatic_segmenter'
-
-module Gutenough
+module Gutenug
   class Paragraph
     def initialize(blob)
       segmenter = PragmaticSegmenter::Segmenter.new(text: blob.join(' '))

@@ -1,4 +1,4 @@
-module Gutenough
+module Gutenug
   class Chapter
     def initialize(paragraphs)
       @paragraphs = paragraphs
